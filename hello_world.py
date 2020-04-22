@@ -224,17 +224,13 @@ fig.savefig("3.png")
 
 fig, ax = plt.subplots(figsize=(18,10))
 
+print("starting to graph...")
 
 for state, county in [
   ('Pennsylvania', 'Allegheny'),
-  # ('Pennsylvania', 'Philadelphia'),
+  ('Pennsylvania', 'Philadelphia'),
   #('Ohio', 'Franklin'),
   # ('Tennessee', 'Williamson'),
-  #     ('California', 'San Bernardino'),
-  # ('California', 'Orange'),
-  # ('California', 'Los Angeles'),
-  # ('California', 'Ventura'),
-  # ('California', 'Riverside'),
 
   # ('Tennessee', 'Davidson'),
   # ('Tennessee', 'Shelby'),
